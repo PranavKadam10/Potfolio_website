@@ -1,0 +1,34 @@
+.row3{
+    display: flex;
+    justify-content:center;
+}
+.column3{
+    height: 400PX;
+    width: 350px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px ;
+    background-color: rgb(132, 105, 72);
+}
+.spa{
+    border: 1px solid;
+    border-radius: 13px;
+    font-size: 15px;
+    /* margin:; */
+    padding: 5px 8px;
+    margin: 5px ;
+}
+.column3:hover{
+    border: 10px solid rgb(132, 105, 72);
+}
+@media (max-width:480px){
+    .row3{
+        display: block;
+        height: auto;
+    }
+    .column3{
+        width: 100%;
+        margin: 15px 0;
+    }
+}

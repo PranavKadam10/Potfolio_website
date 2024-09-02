@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+    width: 100%;
+    background-color: rgb(48, 38, 38);
+    color: aliceblue;
+    padding: 30px;
+    height: 640px;
+    align-items: center;
+}
+.column{
+    border: none;
+    flex: 50%;
+}
+@media (max-width:480px){
+    .row{
+        display: block;
+        height: auto;
+    }
+    .column{
+        width: 100%;
+    }
+}
